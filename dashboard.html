@@ -1,0 +1,643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="icon" href="images/royal.png" type="image/gif" sizes="16x16">
+        <!-- META -->
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!-- TITLE -->
+        <title>Portofolio</title>
+
+        <!-- Lorem Ipsum JS -->
+        <script src="js/lorem.js"></script>
+
+            <!-- number Lorem Ipsum JS -->
+            <script src="js/number.js"></script>
+
+
+
+      
+
+        <!-- Main StyleSheet -->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="style-responsive.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+        <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="css/libs/animate.css">
+
+
+		<!-- bxSlider CSS file -->
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+
+        <!-- LayerSlider stylesheet -->
+        <link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+        <!-- External libraries: jQuery & GreenSock -->
+        <script src="layerslider/js/jquery.js" type="text/javascript"></script>
+        <script src="layerslider/js/greensock.js" type="text/javascript"></script>
+        <!-- LayerSlider script files -->
+        <script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+        <script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+        
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        
+
+		<!-- bxSlider Javascript file -->
+        <script src="js/jquery.bxslider.js"></script>
+        <script>
+		$(document).ready(function(){
+		$('.bxslider').bxSlider({
+								
+								pager: false,
+								controls: true,
+								auto: true
+								
+								
+								});
+		});
+		</script>
+
+
+
+		<link rel="stylesheet" type="text/css" href="lightbox/jquery.fancybox.css" media="screen" />
+		<script src="lightbox/jquery.fancybox.js"></script>
+        <script type="text/javascript">
+                $(document).ready(function() {
+                                           
+                    $('.fancybox').fancybox();
+ 		
+                });
+        </script>
+
+
+        <!-- GOTO TOP JQUERY -->
+        <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#gotop').fadeIn();	
+                } else {
+                    $('#gotop').fadeOut();
+                }
+            });
+         
+            $('#gotop').click(function() {
+                $('body,html').animate({scrollTop:0},800);
+            });	
+        });
+        </script>
+            
+
+
+		<!-- HEADER JQUERY -->
+        <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() >= 200) {
+                    $('.header').addClass("header_fix");	
+                } else {
+                   $('.header').removeClass("header_fix");
+                }
+            });	
+        });
+        </script>
+        
+        
+        <script type="text/javascript">
+        
+		if($(window).width() <= 900){
+		$(document).ready(function() {
+                                    
+									
+									
+                    $('.mobile .title').click(function() {
+												
+												$(this).next("ul").slideToggle();
+												$(this).toggleClass("minus");
+												
+												});
+					
+					
+ 		
+                });
+		
+		}
+        </script>
+                            
+</head>
+
+<body>
+        
+        
+    
+        <div class="header">
+        <div class="container">
+        
+        			<a href="#" class="logo"><img src="images/aditya.png" alt="" /></a> <br> 
+                  
+                        <audio  controls  loop class="audio" >
+                        <source src="images/joji.mp3">
+                      </audio>
+                   
+                     
+                    
+                    <div class="nav mobile">
+                    <div class="title">Menu <span class="fa "></span></div>
+                    <ul>
+                    <li><a href="#skillo">My Skils</a></li>
+                    <li><a href="#features">About Me</a></li>
+                    <li><a href="#ipsum">Project Progam </a></li>
+                    <li><a href="#subscribe_part">Subscribe</a></li>
+                    <!-- <li><a href="#contact_part">Contact</a></li> -->
+                    <li><a href="index.html">Log Out</a></li>
+                    </ul>
+                    </div>
+        
+        </div>
+        </div>
+        
+        <!-- PAUSE VIDEO SLIDER -->
+        <!-- <script>
+            let options = {
+                root: null,
+                rootmargin:'0px',
+                threshold:1.0
+            };
+            let callback = (entries,observer)=>{
+                entries.forEach(entry => {
+                    if(entry.target.id == 'thisvideo')
+                    {
+                        if(entry.isIntersecting){
+                            entry.target.play();
+                        }
+                        else{
+                            entry.target.pause();
+                        }
+                    }
+                });
+            }
+            let observer = new IntersectionObserver(callback, options);
+            observer.observe(document.querySelector('#myvideo'));
+        </script> -->
+
+		<div class="wrapper">
+        <div class="slider_main">
+        <div id="full-slider-wrapper">
+        <div id="layerslider" style="width:100%;height:473px;">
+        
+        
+                                <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+                                <img src="images/slider/slide-bg.jpg" class="ls-bg" alt="Slide background"/>
+                                
+                                
+                                <div class="ls-l videopreview" style="top:87px;left:0px;white-space: nowrap;" data-ls="offsetxin:-200;durationin:2000;offsetxout:-0;">
+                                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/bSMZgXzC9AA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen muted></iframe> -->
+                              <!-- <  <img src="images/player.png" alt="" />> -->
+                              <video id='thisvideo' autoplay width="560" height="315" muted controls  >
+                                <source src="images/vs.mp4  ">
+                              </video>
+                                </div>
+                                
+                                
+                                <div class="ls-l" style="top:140px;left:570px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l1">How To Create Lorem Ipsum Text</h2>
+                                </div>
+                                
+                                <div class="ls-l" style="top:200px;left:585px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l2">This is a video tutorial how to create lorem ipsum text in html file </h2>
+                                </div>
+                           
+                                <div class="ls-l" style="top:265px;left:810px;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                    <a href="#ipsum" class="button1">Lets Try</a>
+                                    </div>
+                                
+                               
+                                </div><!--FIRST SLIDE-->
+                                
+                                
+                                
+                                <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+                                <img src="images/slider/slide-bg.jpg" class="ls-bg" alt="Slide background"/>
+                                
+                                
+                                <div class="ls-l videopreview" style="top:87px;left:0px;white-space: nowrap;" data-ls="offsetxin:-200;durationin:2000;offsetxout:-0;">
+                                <!--<iframe src="http://player.vimeo.com/video/34134308?portrait=0&amp;color=ff9933&autoplay=1" width="443" height="290" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                                <!-- <img src="images/player.png" alt="" /> -->
+                                <video id='thisvideo' autoplay width="560" height="315" controls muted>
+                                    <source src="images/web.mp4  ">
+                                  </video>
+                                </div>
+                                
+                                
+                                <div class="ls-l" style="top:140px;left:638px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l1">How To Create Web Simple</h2>
+                                </div>
+                                
+                                <div class="ls-l" style="top:200px;left:585px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l2">Using Html Css.Visual Studio Code.</h2>
+                                </div>
+                                
+                            
+                                
+                                <!-- <div class="ls-l" style="top:265px;left:598px;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <a href="#" class="button2">Learn More</a>
+                                </div> -->
+                                
+                                
+                                <div class="ls-l" style="top:265px;left:810px;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <a href="https://www.youtube.com/watch?v=jOvvHvzaY2M" class="button1">Lets Try</a>
+                                </div>
+                                
+                               
+                                </div><!--FIRST SLIDE-->
+                                
+                     
+           
+			
+        </div>
+        </div> 
+        </div>
+
+
+
+
+        <div class="service_section">
+        <div class="container">
+        
+        			<h2>My portfolio website    </h2>
+                    <h4>what is listed here is about me, the task project that I made, and the previous project</h4>
+                    
+                    <div class="insider">
+                   
+                   		<div class="column">
+                        <span >&#128113;</span>
+                        <h3>About Me</h3>
+                        <p>It's in the slide one section.</p>
+                        </div>
+                        
+                        <div class="column">
+                        <span c>&#128196;</span>
+                        <h3>Project</h3>
+                        <p>It's in the slide Two section.</p>
+                        </div>
+                        
+                        <div class="column">
+                       	<span style="color: black;">&#x1F6E0;</span>
+                        <h3>Fitur</h3>
+                        <p>It's in the slide Three section.</p>
+                        </div>
+                   
+                    </div>
+        
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="feature_section" id="features">
+        <div class="container">
+        
+        				
+                        <div class="leftside">
+                        <img src="images/thumbs/me.JPG" alt=""  class="wow bounceInLeft animated" data-wow-duration="2s" data-wow-offset="300" data-wow-delay="0.2s" />
+                        </div>
+                        
+                        
+                        <div class="rightside">
+                        <h2>About Me</h2>
+                        <p>
+                            I am a front-end web developer. I can provide the perfect php code and video editor. I can also control the database server. Responsive design makes your website accessible to all users, regardless of their device.
+                        </p>
+                        
+                        <div class="feature">
+                        <span class="fa fa-life-ring"></span>
+                        <div class="description">
+                        <strong>Good in Performance</strong> <br />
+                        Design the perfect design and produce a responsive and friendly website.
+                        </div>
+                        </div>
+                        
+                        <br clear="all" />
+                        
+                        <!-- <a href="#" class="button3">Learn More</a>
+                        <a href="#" class="button4">Start Now</a> -->
+                        </div>			
+        
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="feature_section ano_feature_section">
+        <div class="container">
+        
+        				
+                        <div class="leftside">
+                        <h2>previous website project</h2>
+                        <p>
+                            The main purpose of making the SPP Payment Program is to assist officers in manipulating data in the school tuition payment database and assisting the principal or admin to review student tuition payments. Also some other purposes of making the Tuition Payment Program.
+                        </p>
+                        
+                        <div class="feature">
+                        <span class="fa fa-life-ring"></span>
+                        <div class="description">
+                        <strong>feature</strong> <br />
+                        1. Designing a tuition payment program.<br>
+                        2. Create a program for the purpose of synchronizing existing data<br>
+                        3. on the database.<br>
+                        4. Generate service to get data in view
+                        simple and easy to understand or user friendly.
+                        </div>
+                        </div>
+                        
+                        <!-- <div class="feature">
+                        <span class="fa fa-play-circle-o "></span>
+                        <div class="description">
+                        <strong>Video Background</strong> <br />
+                        Designing is a matter of concentration. You go deep into what you want to do. It's about intensive research, really.
+                        </div>
+                        </div> -->
+                        
+                        </div>
+                        
+                        
+                        <div class="rightside">
+                        <img src="images/thumbs/cd.png" alt="" class="wow bounceInRight animated imagethumb2" data-wow-offset="300" data-wow-delay="0.2s" />
+                        </div>			
+        
+        </div>
+        </div>
+        
+        
+        
+        
+        <div class="common_section" id="skill">
+        <div class="container">
+        
+        			<h2>My Skilss</h2>
+                    <h4>all the skills listed are real without writing</h4>
+                    
+                    
+                    <div class="faqbox">
+                    <div class="title">Web Programmer</div>
+                    <p>
+                        HTML and CSS.
+                        SQL
+                        JavaScript.
+                        PHP.
+                    </p>
+                    </div>
+                    
+                    <div class="faqbox">
+                        <div class="title">Videografer</div>
+                        <p>
+                            adobe premiere
+                            adobe photoshop
+                            adobe after effects
+                        </p>
+                        </div>
+
+                        <div class="faqbox">
+                            <div class="title">Photographer</div>
+                            <p>
+                                photoshop.
+                                can master the camera and the situation of the place.
+                            </p>
+                            </div>
+                 
+                    
+                    
+        
+        </div>
+        </div>
+        
+        
+        
+        
+        <div class="common_section" id="ipsum">
+        <div class="container">
+        
+        			<h2>Lorem Ipsum</h2>
+                    <h4 style="margin:0 0 40px 0;" >CHOOSE: WORD,SETENCE,PARAGRAPH</h4>
+                    
+                   
+                   	<!-- <br clear="all" /> -->
+                             <div class="ipsum">
+                                 <center>  
+                            <label>choose what you want</label> <br>  <br>
+                            <!-- <select class="tombol"> 
+                                <option value="1" id="">Paragraf</option>
+                                <option  value="2" id="">Setence</option>
+                                <option  value="3" id="">word</option>
+                            </select> -->
+                            <!-- <input class="tombol1" type="text" name="" id=""> -->
+                            <br>   <br>   <br> 
+                            <label for="">Paragraf</label> 
+                            <input type="radio" name="" id="paragraf">
+                              <br> 
+                            <label for="">Setence</label>
+                            <input type="radio" name="" id="setence">
+                            <br>  
+                            <label for="">word</label>
+                            <input type="radio" name="" id="word">
+                            <br>  <br>    
+                             <button class="tombol" onclick="klik()">Click</button>
+                             <button class="tombol" onclick="window.location.reload();">Reset</button>
+                             <br>  <br>
+                            <p id="para1" style="margin:0 0 40px 0;" ></p> <br> 
+                        
+                          </div>
+                           
+
+                             </center>   
+                           
+                            
+                           
+                    
+        
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="common_section" id="number">
+        <div class="container">
+        
+        			<h2>Ipsum Number of words</h2>
+                    <h4>term sheet convertible note colluding bootstrapping</h4>
+                    <center>
+                     <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+                     <br>
+                    <label for="">Number of words to appear</label>
+                    <br>      <br>
+                    <input class="tombol1" type="text" name="" id="jumlah">
+                    <br>      <br>
+                    <p id="kata"></p>
+                    <br>
+                    <button class="tombol" onclick="klik1()">Click</button>
+                    <button class="tombol" onclick="window.location.reload();">Reset</button>
+                    <br>
+                   
+                  </center>
+                    
+                  
+        </div>
+        </div>
+        
+        
+        
+        
+        <!-- <div class="common_section" id="contact_part">
+        <div class="container">
+        
+        			<h2>Get in touch with us</h2>
+                    <h4>term sheet convertible note colluding bootstrapping</h4>
+                    
+                   
+                   	<br clear="all" />
+                    
+                    
+                    <form method="post" class="hpform">
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <textarea placeholder="Message"></textarea>
+                    <input type="submit" value="SEND" />
+                    </form>
+                    
+                   
+                    
+        
+        </div>
+        </div> -->
+        
+        
+        
+        
+        <div class="subscribe_section" id="subscribe_part">
+        <div class="container">
+        
+        			<h2>Subscribe to My Channel YouTube</h2>
+                    
+                   
+                   	<br clear="all" />
+                    
+                    
+                    <form method="post" action="https://www.youtube.com/channel/UCRbe3zTap5EwoUyOMwtjNuA">
+                    <input type="text" placeholder="Enter your Name" required/>
+                    <input type="submit" value="SUBSCRIBE" />
+                    </form>
+                    
+                   
+                    
+        
+        </div>
+        </div>
+        
+        
+        
+        
+        <div class="common_section">
+        <div class="container">
+        
+        	
+            		<a href="#" class="footer_logo"><img src="images/royal.png" alt="" /></a>
+                   
+					<div class="copyright">Copyright 2022 All Right Reserved - Aditya </a>.</div>                    
+        
+        </div>
+        </div>
+        
+        
+        </div><!--wrapper-->
+
+
+		<script>
+            jQuery("#layerslider").layerSlider({
+                responsive: false,
+                responsiveUnder: 1100,
+                layersContainer: 1100,
+                skin: 'fullwidth',
+                hoverPrevNext: false,
+                skinsPath: 'layerslider/skins/'
+            });
+        
+        
+        </script>
+
+		<script src="js/wow.js"></script>
+        <script>
+        wow = new WOW(
+          {
+            animateClass: 'animated',
+            offset:       100
+          }
+        );
+        wow.init();
+        document.getElementById('moar').onclick = function() {
+          var section = document.createElement('section');
+          section.className = 'section--purple wow fadeInDown';
+          this.parentNode.insertBefore(section, this);
+        };
+        </script>
+
+		<script type="text/javascript">
+		$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		var target = $(this.hash);
+		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		if (target.length) {
+		$('html,body').animate({
+		scrollTop: target.offset().top - 132
+		}, 2000);
+		return false;
+		}
+		}
+		});
+		});
+        </script>
+        
+        
+		<script type="text/javascript">
+        
+        
+        $(document).ready(function() {
+        
+        if($(window).width() <= 1200){
+        
+        
+        $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+        $('html,body').animate({
+        scrollTop: target.offset().top - 132
+        }, 2000);
+        return false;
+        }
+        }
+        });
+        });
+        
+        
+        
+        }
+        
+        });
+        
+        
+        </script> 
+     
+
+		
+</body>
+</html>

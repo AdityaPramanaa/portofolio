@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Created By Royals -->
+<html lang="en" dir="ltr">
+   <head>
+	<link rel="icon" href="images/royal.png" type="image/gif" sizes="16x16">
+      <meta charset="utf-8">
+      <title>Login Form | Royals</title>
+      <link rel="stylesheet" href="css/login.css">
+      <link rel="stylesheet" href="css/responsive.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   </head>
+   <body>
+
+
+      <div class="wrapper">
+         <div class="title">
+            Login Form
+         </div>
+         <form action="dashboard.html">
+            <div class="field">
+               <input type="text" required >
+               <label>Username</label>
+            </div>
+            <div class="field">
+               <input type="password" required>
+               <label>Password</label>
+            </div>
+            <div class="content">
+               <div class="checkbox">
+                  <input type="checkbox" id="remember-me">
+                  <label for="remember-me">Remember me</label>
+               </div>
+               <div class="pass-link">
+                  <a href="#" onclick="forgot()">Forgot password?</a>
+               </div>
+            
+            </div>
+            <div class="field">
+               <input  type="submit" value="Login" >
+            </div>
+            <div class="signup-link">
+               Not a member? <a href="#"onclick="forgot()">Signup now</a>
+            </div>
+         </form>
+      </div>
+      <script>
+         function forgot() {
+           alert("development stage");
+         }
+         </script>
+   </body>
+</html>
